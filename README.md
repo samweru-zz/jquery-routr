@@ -3,7 +3,7 @@ jQuery routr
 
 ## Quick Start
 
-Why another javascript router? The more the merrier. :)
+Why another javascript router? The more the merrier :)
 
 ```js
 	$.routr.add("user/{int}", function(id){
@@ -26,8 +26,6 @@ The above functions would be accessed through:
 
 ## Usage
 
-Functions:
-
 a) Adding route
 ```js
 $.routr.add("user/{string}", function(username){})
@@ -38,7 +36,7 @@ $.routr.remove("user/{string}")
 ```
 c) Execute route
 ```js
-$.routr.execute("/user/add")
+$.routr.execute("user/add")
 ```
 d) Start listening for routes (uses ***hashchange*** state)
 ```js
@@ -55,5 +53,5 @@ $.routr.run();
 
 ## License
 
-Copyright (c) 2014 Samuel Weru
+Copyright (c) 2014 Samuel Weru,
 Licensed under the MIT license.
