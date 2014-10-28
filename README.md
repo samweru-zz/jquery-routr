@@ -28,19 +28,19 @@ The above functions would be accessed through:
 
 Functions:
 
-1. Adding route
+a) Adding route
 ```js
 $.routr.add("user/{string}", function(username){})
 ```
-2. Removing route
+b) Removing route
 ```js
 $.routr.remove("user/{string}")
 ```
-3. Execute route
+c) Execute route
 ```js
 $.routr.execute("/user/add")
 ```
-4. Start listening for routes (uses ***hashchange*** state)
+d) Start listening for routes (uses ***hashchange*** state)
 ```js
 $.routr.run();
 ```
