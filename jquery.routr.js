@@ -110,6 +110,10 @@ String.prototype.test = function(expr) {
 
                 $.routr.execute(window.location.hash.replace(/#\/|#/g,""));
             });
+
+        var hashurl = window.location.hash.replace(/#\/|#/g,"");
+        if(hashurl)
+            $.routr.execute(hashurl);
     }
  
 }(jQuery));
