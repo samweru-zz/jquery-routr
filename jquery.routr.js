@@ -101,6 +101,8 @@ String.prototype.test = function(expr) {
             });
         else
             $.routr.routes[route].callback();
+
+        window.location.hash = $.routr.current;
     }
 
     $.routr.run = function(){
