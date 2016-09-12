@@ -50,8 +50,3 @@ $.routr.run();
 3. **date** - format *yyyy-mm-dd*
 4. **string** - alpha numeric characters
 5. **bool** - *true* or *false*
-
-## License
-
-Copyright (c) 2014 Samuel Weru,
-Licensed under the MIT license.
