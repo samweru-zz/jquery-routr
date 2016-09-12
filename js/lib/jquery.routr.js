@@ -2,7 +2,7 @@
  * jQuery routr - v1.0.1-alpha1
  * Javascript Router
  *
- * Copyright (c) 2014 Samuel Weru
+ * Copyright (c) 2016 Samuel Weru
  * Released under the MIT license
  */
 String.prototype.test = function(expr) {
