@@ -1,0 +1,88 @@
+*{
+
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+
+    height:100%;
+}
+
+.east{
+
+    width: 17%;
+    height: 100%;
+    overflow: auto;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-right: 1px #000 solid;
+    background-color: #EAEEF3;
+    -webkit-border-end: 1px solid #C6C9CE;
+    background: -webkit-linear-gradient(#EAEEF3, #EAEEF3), -webkit-linear-gradient(left, #EAEEF3, #EAEEF3 97%, #D3D7DB);
+    position: absolute;
+    z-index: 2;
+}
+
+.west{
+
+    width: 83%;
+    height: 100%;
+    overflow: auto;
+    float: right;
+    background-color: #fff;
+    position: relative;
+    display: table;
+}
+
+.menu{
+
+    margin-left: 15px;
+}
+
+.menu ul:first-child{
+
+    padding-top:25px;
+}
+
+.menu ul{
+
+    padding-top: 5px;
+}
+
+.menu ul, .menu ul li{
+
+    padding-left: 2px;
+    margin-left: 5px;
+}
+
+.menu ul li{
+
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+    border-top:1px #000 solid;
+    margin-right: none;
+    padding-right: none;
+    border-right: none;
+}
+
+.menu ul li a{
+
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    background-color: white;
+    width: 100%;
+}
+
+.menu ul li a:hover{
+
+    color: blue;
+}
+
+.menu ul li span{
+
+    font-weight: bold;
+}

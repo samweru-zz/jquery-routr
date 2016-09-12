@@ -21,8 +21,8 @@ Why another javascript router? The more the merrier :)
 
 The above functions would be accessed through:
 
-1. **localhost/app#user/1**
-2. **localhost/app#user/add**
+1. **/app#user/1**
+2. **/app#user/add**
 
 ## Usage
 
