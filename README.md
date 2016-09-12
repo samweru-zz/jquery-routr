@@ -6,41 +6,43 @@ jQuery routr
 Why another javascript router? The more the merrier :)
 
 ```js
-	$.routr.add("user/{int}", function(id){
+    var routr = new Routr();
+
+	routr.add("user/{int}", function(id){
 
 		console.log("User::id->".concat(id));
 	})
 
-	$.routr.add("user/add", function(){
+	routr.add("user/add", function(){
 
 		console.log("User::add");
 	})
 
-	$.routr.run();
+	routr.run();
 ```
 
 The above functions would be accessed through:
 
-1. **/app#user/1**
-2. **/app#user/add**
+1. **#user/1**
+2. **#user/add**
 
 ## Usage
 
 a) Adding route
 ```js
-$.routr.add("user/{string}", function(username){})
+    routr.add("user/{string}", function(username){})
 ```
 b) Removing route
 ```js
-$.routr.remove("user/{string}")
+    routr.remove("user/{string}")
 ```
 c) Execute route
 ```js
-$.routr.execute("user/add")
+    routr.execute("user/add")
 ```
-d) Start listening for routes (uses ***hashchange*** state)
+d) Start listening for routes (uses ***hashchangestate***) or otherwise leave out to and execute manually via (c)
 ```js
-$.routr.run();
+    routr.run();
 ```
 
 ## Route Parameters
