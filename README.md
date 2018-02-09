@@ -6,25 +6,20 @@ jQuery routr
 Why another javascript router? The more the merrier :)
 
 ```js
-    var routr = new Routr();
+var routr = new Routr();
 
-	routr.add("user/{int}", function(id){
+routr.add("user/{int}", function(id){
 
-		console.log("User::id->".concat(id));
-	})
+	console.log("User::id->".concat(id));
+})
 
-	routr.add("user/add", function(){
+routr.add("user/add", function(){
 
-		console.log("User::add");
-	})
+	console.log("User::add");
+})
 
-	routr.run();
+routr.run();
 ```
-
-The above functions would be accessed through:
-
-1. **#user/1**
-2. **#user/add**
 
 ## Usage
 
