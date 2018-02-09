@@ -23,19 +23,19 @@ routr.run();
 
 ## Usage
 
-a) Adding route
+Adding route
 ```js
     routr.add("user/{string}", function(username){})
 ```
-b) Removing route
+Removing route
 ```js
     routr.remove("user/{string}")
 ```
-c) Execute route
+Manually execute route
 ```js
     routr.execute("user/add")
 ```
-d) Start listening for routes (uses ***hashchangestate***) or otherwise leave out to and execute manually via (c)
+Start listening for routes (uses ***hashchangestate***)
 ```js
     routr.run();
 ```
