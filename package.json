@@ -1,0 +1,27 @@
+{
+  "name": "jquery-routr",
+  "version": "1.0.0",
+  "description": "router",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samweru/jquery-routr.git"
+  },
+  "keywords": [
+    "jquery",
+    "router"
+  ],
+  "author": "Sam Weru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samweru/jquery-routr/issues"
+  },
+  "homepage": "https://github.com/samweru/jquery-routr#readme"
+}
