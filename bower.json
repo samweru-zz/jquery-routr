@@ -1,7 +1,7 @@
 {
   "name": "jquery-routr",
   "description": "router",
-  "main": "gulpfile.js",
+  "main": "src/lib/jquery.routr.js",
   "authors": [
     "Sam Weru"
   ],
