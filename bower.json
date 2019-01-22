@@ -16,6 +16,7 @@
     "assets",
     "node_modules",
     "bower_components",
+    "bower.json",
     "test",
     "tests"
   ],
